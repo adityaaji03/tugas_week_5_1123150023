@@ -61,7 +61,19 @@ class _HomePageState extends State<HomePage> {
             borderColor: Colors.blue,
           ),
         ),
-       
+        Transform.rotate(
+          angle: -43 * 3.14159 / 180,
+          child: _buildSansContainer(
+            image: "assets/images/gym.png",
+            title: "Gym",
+            borderColor: Colors.blueAccent,
+            gradient: const LinearGradient(
+              colors: [Colors.yellow, Colors.greenAccent, Colors.blue],
+              begin: Alignment.bottomLeft,
+              end: Alignment.topRight,
+            ),
+          ),
+        ),
       ],
     );
   }
