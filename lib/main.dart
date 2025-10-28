@@ -53,6 +53,14 @@ class _HomePageState extends State<HomePage> {
           title: "boxing",
           borderColor: Colors.blue,
         ),
+        Transform.rotate(
+          angle: 38 * 3.14159 / 180,
+          child: _buildSansContainer(
+            image: "assets/images/pillates.png",
+            title: "pillates",
+            borderColor: Colors.blue,
+          ),
+        ),
        
       ],
     );
