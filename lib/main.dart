@@ -101,7 +101,7 @@ class _HomePageState extends State<HomePage> {
               : null,
         ),
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: borderColor, width: 2),
+        border: Border.all(color: borderColor, width: 5),
         gradient: gradient,
 
         boxShadow: [
@@ -117,12 +117,13 @@ class _HomePageState extends State<HomePage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          
           const Text(
             "Olahraga",
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white,),
           ),
           const Text(
-            "Sehat",
+            "Sehat",  
             style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white,),
           ),
           Text(
@@ -141,7 +142,7 @@ class _HomePageState extends State<HomePage> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const SizedBox(height: 30),
-          _sansContainer(), // hanya tampilkan kontainer
+          _sansContainer(), 
         ],
       ),
     );
